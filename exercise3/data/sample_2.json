@@ -1,0 +1,93 @@
+{
+  "patient": {
+    "patientID": "123456",
+    "firstName": "John",
+    "lastName": "Doe",
+    "dateOfBirth": "1985-07-15",
+    "gender": "Male",
+    "contactInfo": {
+      "phone": "+1-555-555-1234",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "1234 Elm Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "USA"
+      }
+    }
+  },
+  "medicalHistory": {
+    "allergies": [
+      {
+        "allergyName": "Peanuts",
+        "severity": "Severe",
+        "reaction": "Anaphylaxis"
+      },
+      {
+        "allergyName": "Penicillin",
+        "severity": "Mild",
+        "reaction": "Rash"
+      }
+    ],
+    "chronicConditions": [
+      {
+        "conditionName": "Hypertension",
+        "diagnosisDate": "2015-04-20",
+        "medications": [
+          {
+            "medicationName": "Lisinopril",
+            "dose": "10mg",
+            "frequency": "Once daily"
+          }
+        ]
+      },
+      {
+        "conditionName": "Type 2 Diabetes",
+        "diagnosisDate": "2018-06-15",
+        "medications": [
+          {
+            "medicationName": "Metformin",
+            "dose": "500mg",
+            "frequency": "Twice daily"
+          }
+        ]
+      }
+    ]
+  },
+  "currentMedications": [
+    {
+      "medicationName": "Ibuprofen",
+      "dose": "200mg",
+      "frequency": "As needed for pain"
+    }
+  ],
+  "immunizations": [
+    {
+      "vaccineName": "Influenza",
+      "dateAdministered": "2023-09-30",
+      "location": "City Health Clinic"
+    },
+    {
+      "vaccineName": "COVID-19",
+      "dateAdministered": "2022-12-10",
+      "location": "Pharmacy"
+    }
+  ],
+  "recentVisits": [
+    {
+      "dateOfVisit": "2024-08-10",
+      "providerName": "Dr. Emily Smith",
+      "reasonForVisit": "Routine check-up",
+      "diagnosis": "Good health",
+      "notes": "Patient advised to continue current medications."
+    },
+    {
+      "dateOfVisit": "2024-04-05",
+      "providerName": "Dr. Mark Johnson",
+      "reasonForVisit": "Follow-up for diabetes management",
+      "diagnosis": "Diabetes under control",
+      "notes": "Recommended increased exercise and diet management."
+    }
+  ]
+}
