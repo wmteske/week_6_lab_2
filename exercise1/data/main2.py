@@ -13,7 +13,9 @@ tree = etree.parse(sample_xml_file)
 """
 Write the XPath expression below
 """
+# XPath expression to extract text content from <name> elements under <medication> within <medications>.
+result = tree.xpath('//patient/medical_history/medications/medication/name/text()')
 
-result = tree.xpath('')
+# Print each item in the result.
 for item in result:
     print(item)
