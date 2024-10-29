@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patient>
+    <id>12345</id>
+    <name>john doe</name>
+    <age>45</age>
+    <gender>male</gender>
+    <address>
+        <street>123 main st</street>
+        <city>anytown</city>
+        <state>ca</state>
+        <zipcode>12345</zipcode>
+    </address>
+    <medical_history>
+        <condition>hypertension</condition>
+        <condition>diabetes</condition>
+        <medications>
+            <medication id="001">
+                <name>metformin</name>
+                <dose>500mg</dose>
+                <frequency>twice daily</frequency>
+            </medication>
+            <medication id="002">
+                <name>lisinopril</name>
+                <dose>20mg</dose>
+                <frequency>once daily</frequency>
+            </medication>
+        </medications>
+    </medical_history>
+</patient>
